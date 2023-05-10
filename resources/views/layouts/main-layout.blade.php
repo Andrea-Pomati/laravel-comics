@@ -16,8 +16,11 @@
 </head>
 
 <body>
-
-    
+   @include('partials/header')
+   @include('partials/jumbotron')
+   @yield('content')
+   @include('partials/bluesection')
+   @include('partials/footer')
 </body>
 
 </html>
